@@ -12,3 +12,14 @@ Genomics Aotearoa<BR>
 08/10/2019
 
 ----
+
+### Metagenomic annotation
+
+A workflow and set of tools that can be used for the prediction of genes and genomic features in genomes or metagenomes, and annotation of gene predictions.
+
+**Dr David Waite**<BR>
+The University of Auckland <BR>
+Genomics Aotearoa<BR>
+09/10/2019
+
+----
