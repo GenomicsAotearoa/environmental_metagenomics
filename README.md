@@ -6,7 +6,7 @@ The workflow and software used in the [Environmental Metagenomics](https://www.g
 
 We assume that you are:
 - comfortable with Unix command-line for file system navigation, tools, and syntax
-- able to read and understand some bash, Python, and R syntax
+- able to read and understand some **bash**, **Python**, and **R** syntax
 - comfortable troubleshooting problems
 - understand omics terminology and their synonyms
 
