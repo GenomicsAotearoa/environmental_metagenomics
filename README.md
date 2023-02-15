@@ -6,9 +6,9 @@ The workflow and software used in the [Environmental Metagenomics](https://www.g
 
 We assume that you are:
 - comfortable with Unix command-line for file system navigation, tools, and syntax
-- able to read and understand some **bash**, **Python**, and **R** syntax
-- comfortable troubleshooting problems
+- able to read and understand (some) **bash**, **Python**, and **R** syntax
 - understand omics terminology and their synonyms
+- capable of scaling the workflow appropriately using loops and array jobs
 
 # Sections
 
@@ -49,8 +49,3 @@ The University of Auckland<br>
 Genomics Aotearoa<br>
 06/02/2023<br>
 *Viromics and long-read sequencing*
-
-**Jian Sheng Boey**<br>
-The University of Auckland<br>
-Genomics Aotearoa<br>
-*Maintainer of repository*
