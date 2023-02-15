@@ -15,6 +15,8 @@ How step 2 is performed in this process depends on your assembly strategy, where
 
 Bin evaluation are also performed at steps 2 and 3.
 
+After binning, we will predict/extract genomic features such as rRNA, tRNA, and CRISPR sequences, as well as taxonomically classify the MAGs.
+
 ## Required data
 
 - Quality trimmed reads
