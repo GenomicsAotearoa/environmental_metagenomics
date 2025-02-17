@@ -1,16 +1,9 @@
-# Workflow: GC, AA, and pI
+# Dereplication of putative viral contigs identified by multiple tools
 
-Workflow for compiling GC content, amino acid proportions, and isoelectric points of predicted genes and proteins, as used in the study *'Genomic markers show the proliferation of DNA viruses is constrained by adaptation to environmental niche'*.
+The full workflow for identification of viral contigs from metagenomics assemblies is available [here](https://github.com/GenomicsAotearoa/environmental_metagenomics/blob/master/3.viromics/a.whole_genome_shotgun/1.identify_viral_sequences.md)
 
-Method:
-
-- Predict genes and protein sequence via DRAMv (prodigal-gv)
-- Calculate animo acid proportions per predicted protein
-- Generate summaries for AA types including acidic, basic, polar, nonpolar, and charged amino acids (defined as per pepstats (EMBOSS v6.6.0))
-- Identify gene GC content
-- Output summary table of results
-- Also calculate protein isolectric points (pI)
+Custom scripts used to dereplicate viral contigs identified by multiple tools (VirSorter2; VIBRANT; deepVirFinder), including *summarise_viral_contigs.py* and *virome_per_sample_derep.py*, are available [here](https://github.com/GenomicsAotearoa/environmental_metagenomics/tree/master/3.viromics/a.whole_genome_shotgun/scripts).
 
 # Software dependencies
 
-- This workflow was developed and tested in Python v3.8.2, and requires the following python libraries: pandas, numpy, re, os, Bio
+The custom scripts noted above have been tested with Python v3.8.2, and require the following python libraries: argparse, os, pandas, numpy, re, Bio.SeqIO.FastaIO
